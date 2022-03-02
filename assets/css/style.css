@@ -7,6 +7,34 @@
 }
 
 
-main > div:first-child{
+#jumbo{
+    height: 70vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
     background-image: url(../img/jumbo-bg.png);
+}
+
+.border-img{
+    border-radius: 20px;
+}
+
+.hover:hover{
+    border-radius: 20px;
+    border: 2px solid #0072CE;
+    padding: .25rem;
+    overflow-y: hidden;
+}
+
+.card{
+    border: none !important;
+}
+
+.selected{
+    border-bottom:3px solid #0072CE !important;
+}
+
+.row.accessori .card .card-body:hover{
+    border-bottom:3px solid #0072CE;
+    opacity: 1 !important;
 }

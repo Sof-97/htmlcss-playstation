@@ -17,19 +17,20 @@
 
 	<body>
         <!-- SECTION Header -->
-		<header>
-            <!-- NOTE Logo Sony -->
-			<div
-				class="w-100 bg-black d-flex align-items-center justify-content-end"
-			>
-				<a href="#" class="pb-1 pe-2">
-					<img
-						class="logo"
-						src="./assets/img/sony_logo.svg"
-						alt="logo"
-					/>
-				</a>
-			</div>
+		<!-- NOTE Logo Sony -->
+		<div
+			class="w-100 bg-black d-flex align-items-center justify-content-end"
+		>
+			<a href="#" class="pb-1 pe-2">
+				<img
+					class="logo"
+					src="./assets/img/sony_logo.svg"
+					alt="logo"
+				/>
+			</a>
+		</div>
+		<header class="sticky-top">
+            
             <!-- NOTE Barra di navigazione -->
 			<nav class="navbar navbar-expand-md navbar-light bg-white">
 				<div class="container-fluid">
@@ -184,12 +185,115 @@
 		</header>
         <!-- SECTION Main -->
         <main>
-            <div class="container-fluid d-flex flex-column align-content-end">
-                <img src="./assets/img/returnal-hero-banner-logo.png" alt="banner returnal">
-                <h2 class="text-light">Rompi il cerchio</h2>
-                <p class="text-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Non itaque dignissimos ullam, aut alias molestias voluptatum eligendi quam ad numquam, labore ut modi quas ipsam? Animi corporis dolorem quis officiis?</p>
-
+			<!-- NOTE Jumbo -->
+            <div class="container-fluid d-flex flex-column justify-content-end pb-4" id="jumbo">
+				<div class="container w">
+					<img class="img-fluid w-75 py-3" src="./assets/img/returnal-hero-banner-logo.png" alt="banner returnal">
+					<p class="text-light fs-1 fw-bolder">Rompi il cerchio</p>
+					<p class="text-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Non itaque dignissimos ullam, aut alias molestias voluptatum eligendi quam ad numquam, labore ut modi quas ipsam? Animi corporis dolorem quis officiis?</p>
+					<button type="button" class="btn btn-danger rounded-pill">
+						<a class="text-white text-decoration-none" href="#">Acquista ora</a>
+					</button>
+				</div>
             </div>
+			<!-- NOTE Prima row giochi -->
+			<div class="container">
+				<div class=" row row-cols-2 row-cols-sm-3 row-cols-lg-6">
+					<div class="col my-3">
+						<div class="hover">
+							<img class="img-fluid border-img" src="./assets/img/returnal-listing-thumb-01-ps5.jpg" alt="games">
+						</div>
+					</div>
+					<div class="col my-3">
+						<div class="hover">
+							<img class="img-fluid border-img" src="./assets/img/ratchet-and-clank-rift-apart-keyart.jpg" alt="games">
+						</div>
+					</div>
+					<div class="col my-3">
+						<div class="hover">
+							<img class="img-fluid border-img" src="./assets/img/returnal-listing-thumb-01-ps5.jpg" alt="games">
+						</div>
+					</div>
+					<div class="col my-3">
+						<div class="hover">
+							<img class="img-fluid border-img" src="./assets/img/ratchet-and-clank-rift-apart-keyart.jpg" alt="games">
+						</div>
+					</div>
+					<div class="col my-3">
+						<div class="hover">
+							<img class="img-fluid border-img" src="./assets/img/returnal-listing-thumb-01-ps5.jpg" alt="games">
+						</div>
+					</div>
+					<div class="col my-3">
+						<div class="hover">
+							<img class="img-fluid border-img" src="./assets/img/ratchet-and-clank-rift-apart-keyart.jpg" alt="games">
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- NOTE  Playstation 5 -->
+			<div class="container mt-5">
+				<div class="row text-center">
+					<h4 class="text-uppercase text-primary fw-bold">play has no limits</h4>
+					<h2 class="fw-bold fs-1 pb-2">Ecco la PlayStation 5</h2>
+					<p class="text-black-50 fs-5">Tuffati in nuove possibilità completamente inaspettate</p>
+				</div>
+				<div class="row mt-5">
+					<div class="col-12 col-md-4">
+						<h2 class="fw-bolder fs-1">Console Playstation 5</h2>
+						<p class="text-black-50">Sperimenta la nuova generazione di incredibili giochi Poly Station</p>
+						<button class="btn btn-primary rounded-pill">
+							Maggiori informazioni
+						</button>
+					</div>
+					<div class="col-12 col-md-8">
+						<img class="img-fluid" src="./assets/img/playstation-5-thumb.png	" alt="">
+					</div>
+				</div>
+				<div class="row accessori">
+					<div class="card col-4 col-md-3">
+						<div class="card-body selected">
+							<img src="./assets/img/playstation-5-thumb.png" alt="ps5" class="card-img-top">
+							<h6 class="d-none d-md-block text-center pt-2">PolyStation</h6>
+						</div>
+					</div>
+					<div class="card col-4 col-md-3">
+						<div class="card-body opacity-50">
+							<img src="./assets/img/joypad-thumb.png" alt="ps5" class="card-img-top">
+							<h6 class="d-none d-md-block text-center pt-2">Controller</h6>
+						</div>
+					</div>
+					<div class="card col-4 col-md-3">
+						<div class="card-body opacity-50">
+							<img src="./assets/img/headset-thumb.png" alt="ps5" class="card-img-top">
+							<h6 class="d-none d-md-block text-center pt-2">Headset</h6>
+						</div>
+					</div>
+					<div class="card col-4 col-md-3">
+						<div class="card-body opacity-50">
+							<img src="./assets/img/camera-thumb.jpg" alt="ps5" class="card-img-top">
+							<h6 class="d-none d-md-block text-center pt-2">Camera</h6>
+						</div>
+					</div>
+					<div class="card col-4 col-md-3">
+						<div class="card-body opacity-50">
+							<img src="./assets/img/remote-thumb.png" alt="ps5" class="card-img-top">
+							<h6 class="d-none d-md-block text-center pt-2">Telecomando</h6>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- NOTE Giochi - It Takes Two -->
+			<div class="container-fluid justify-content-start">
+				<div class="container">
+					<img src="./assets/img/it-takes-two-logo.png" alt="logo itt">
+					<h3>Un'avventura cooperativa selvaggia ti attende</h3>
+					<p>Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro. De carne lumbering animata corpora quaeritis. Summus brains sit morbo vel maleficia? De apocalypsi gorger omero undead survivor dictum mauris. Hi mindless mortuis soulless creaturas, imo evil stalking monstra adventus resi dentevil vultus comedat cerebella viventium. Qui animated corpse.</p>
+					<button type="button" class="btn btn-danger rounded-pill">
+						<a class="text-white text-decoration-none" href="#">Acquista ora</a>
+					</button>
+				</div>
+			</div>
         </main>
 
 		<script
