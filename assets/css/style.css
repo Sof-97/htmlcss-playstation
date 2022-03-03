@@ -10,6 +10,18 @@
     background-color: #1F1F1F;
 }
 
+.bg-lightgrey{
+    background-color: #BEBCBB;
+}
+
+.bg-blu{
+    background-color: #161C3B;
+}
+
+.bg-footer{
+   background-color: #00439C;
+}
+
 #jumbo{
     height: 70vh;
     background-size: cover;
@@ -50,4 +62,12 @@
 .row.accessori .card .card-body:hover{
     border-bottom:3px solid #0072CE;
     opacity: 1 !important;
+}
+
+.bg-footer .language img{
+    height: 1rem;
+}
+
+ul{
+    list-style-type: none;
 }
