@@ -1,6 +1,4 @@
-.logo{
-    height: 18px;
-}
+/* NOTE Colori BG */
 
 .bg-white{
     background-color: #fff;
@@ -22,6 +20,21 @@
    background-color: #00439C;
 }
 
+/* NOTE Altezze Fisse */
+.logo{
+    height: 18px;
+}
+
+.logo-footer{
+    height: 4em;
+}
+
+.bg-footer .language img{
+    height: 1.5rem;
+}
+
+/* NOTE Row full screen */
+
 #jumbo{
     height: 70vh;
     background-size: cover;
@@ -40,23 +53,38 @@
     border-radius: 20px;
 }
 
-.hover:hover{
-    border-radius: 20px;
-    border: 2px solid #0072CE;
-    padding: .25rem;
-    overflow-y: hidden;
-}
-
-.new-games div:hover img {
-    scale: 1.1;
-}
-
 .card{
     border: none !important;
 }
 
+footer ul{
+    padding-left: 0 !important;
+    list-style-type: none;
+}
+
+.fit{
+    width: fit-content;
+}
+
+/* NOTE Effetti */
+
+.transition{
+    transition: all 0.5s ease-in-out;
+}
+
+.hover{
+    border-radius: 20px;
+    border: 2px solid #fff;
+    padding: .25rem;
+    overflow-y: hidden;
+}
+
 .selected{
     border-bottom:3px solid #0072CE !important;
+}
+
+.hover:hover{
+    border-color: #0072CE;
 }
 
 .row.accessori .card .card-body:hover{
@@ -64,10 +92,22 @@
     opacity: 1 !important;
 }
 
-.bg-footer .language img{
-    height: 1rem;
+.new-games div:hover img {
+    border-radius: 25% !important;
+    scale: 1.2;
 }
 
-ul{
-    list-style-type: none;
+.row.accessori .card .card-body{
+    border-bottom:3px solid #fff;
+}
+
+.social .row div img:hover{
+    scale: 0.9;
+    border-radius: 10%;
+}
+
+/* NOTE Pulsanti */
+
+.btn:hover{
+    box-shadow: 0px 0px 0px 3px white inset, 0px 0px 5px grey !important; 
 }
