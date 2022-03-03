@@ -6,6 +6,9 @@
     background-color: #fff;
 }
 
+.bg-grey{
+    background-color: #1F1F1F;
+}
 
 #jumbo{
     height: 70vh;
@@ -13,6 +16,12 @@
     background-repeat: no-repeat;
     background-position: center center;
     background-image: url(../img/jumbo-bg.png);
+}
+
+#itt{
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    background-size: cover;
+    background-position: center center;
 }
 
 .border-img{
@@ -24,6 +33,10 @@
     border: 2px solid #0072CE;
     padding: .25rem;
     overflow-y: hidden;
+}
+
+.new-games div:hover img {
+    scale: 1.1;
 }
 
 .card{
